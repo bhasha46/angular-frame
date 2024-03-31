@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Alga';
+    src: url('/src/assets/fonts/Alga-Regular.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+.bg{
+    background:linear-gradient( to top, rgba(241, 240, 240, 0.137),rgba(245, 244, 244, 0.13)) ,url('/assets/images/background.png');
+    height: 1000px;
+}
+.content{
+    margin-left: 100px;
+    padding-top: 100px;
+}
+.title{
+    font-family: 'Alga';
+    font-size: 15px;
+    color: white;
+}
+.data{
+    font-family: 'Alga';
+    font-size: 56px;
+    color: white;
+    line-height: 90%;
+}
+.candle{
+    background: url('/assets/images/candle.jpg');
+    background-size: cover;
+    height: 550px;
+    width: 450px;
+    margin-left: 780px;
+    margin-top: -200px;
+}
+.winep{
+    background: url('/assets/images/wine1.png');
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+    margin-top: -150px;
+    margin-left: -90px;
+}
+.wine{
+    background: url('/assets/images/wine\ glass.jpg');
+    background-size: cover;
+    height: 550px;
+    width: 400px;
+    margin-top: -450px;
+    margin-left: 300px;
+}
+.content2-data{
+    font-family: 'DM sans';
+    font-size: 17px;
+    color: rgb(241, 219, 197);
+    font-weight: 400;
+    margin-left: 800px;
+    margin-top: -100px;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    .content{
+        margin-left: 10px;
+        padding-top: 40px;
+    }
+    .title{
+        font-family: 'Alga';
+        font-size: 15px;
+        color: white;
+    }
+    .data{
+        font-family: 'Alga';
+        font-size: 25px;
+        color: white;
+        line-height: 1.2;
+    }
+    .winep{
+        display: none;
+    }
+    .candle{
+        background: url('/assets/images/candle.jpg');
+        background-size: cover;
+        height: 350px;
+        width: 250px;
+        margin-left: 120px;
+        margin-top: 0px;
+    }
+    .wine{
+        background: url('/assets/images/wine\ glass.jpg');
+        background-size: cover;
+        height: 350px;
+        width: 250px;
+        margin-top: -200px;
+        margin-left: 20px;
+    }
+    .content2-data{
+        font-family: 'DM sans';
+        font-size: 17px;
+        color: rgb(241, 219, 197);
+        font-weight: 400;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,220 @@
+
+@font-face {
+    font-family: 'Alga';
+    src: url('\src\assets\fonts\Alga-Regular.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+    
+    li{
+        list-style: none;
+        font-family: 'Alga';
+        font-size: 19px;
+        line-height: 26px;
+      }
+    .navbar-flex{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .menu{
+        text-align: center;
+        gap: 23px;
+        padding-left: 90px;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 10px;
+        width: 50%;
+    }
+    li{
+        font-size: 17px;
+        font-family: 'Alga';
+        font-weight: 500;
+        width: 90px;
+        color: white;
+    }
+    nav{
+        width: 50%;
+    }
+    .hi{
+        display: flex;
+        justify-content: space-evenly;
+        width: 30%;
+    }
+    .title{
+        width: 20%;
+        padding-left: 80px;
+    }
+    .bars{
+        display: none;
+    }
+    /* button */
+    .hi button{
+        background-color: rgb(203,154,114);
+        color: white;
+        font-family:"DM sans";
+        font-weight: 700;
+        font-size: 11px;
+        width: 150px;
+        border: none;
+        height: 50px;
+    }
+    .hi button:hover{
+        background-color: rgb(202, 130, 70);
+    }
+    .number{
+        color: white;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .home1{
+        display: none;
+        list-style: none;
+        width: 250px;
+        background-color: black;
+        position: absolute;
+        padding: 20px;
+        z-index: 100;
+        margin-left: 370px;
+        margin-top: 40px;
+    }
+    .home1 p{
+        color:white;
+        font-family: 'DM sans';
+        font-size: 17px;
+        border-bottom: 2px solid rgb(203,154,114);
+    }
+    .home1 li{
+        width: 150px;
+    }
+    .home1 li a{
+        font-family: 'DM sans';
+        font-size: 15px;
+        color:rgb(203,154,114);
+        text-decoration: none;
+    }
+    .page2{
+        display: none;
+        list-style: none;
+        width: 200px;
+        background-color: black;
+        position: absolute;
+        padding: 20px;
+        z-index: 100;
+        margin-left: 480px;
+        margin-top: 40px;
+    }
+    .page2 li a{
+        font-family: 'DM sans';
+        font-size: 15px;
+        color:rgb(203,154,114);
+        text-decoration: none;
+    }
+    .blog1{
+        display: none;
+        list-style: none;
+        width: 200px;
+        background-color: black;
+        position: absolute;
+        padding: 20px;
+        z-index: 100;
+        margin-left: 570px;
+        margin-top: 40px;
+    }
+    .blog1 li a{
+        font-family: 'DM sans';
+        font-size: 15px;
+        color:rgb(203,154,114);
+        text-decoration: none;
+    }
+    .blog1 li{
+        width: 150px;
+    }
+    .single1{
+        display: none;
+        list-style: none;
+        width: 200px;
+        background-color: black;
+        position: absolute;
+        padding: 20px;
+        z-index: 100;
+        margin-left: 770px;
+        margin-top: 150px;
+    }
+    .single1 li a{
+        font-family: 'DM sans';
+        font-size: 15px;
+        color:rgb(203,154,114);
+        text-decoration: none;
+    }
+    .single1 li{
+        width: 150px;
+    }
+    .shop1{
+        display: none;
+        list-style: none;
+        width: 200px;
+        background-color: black;
+        position: absolute;
+        padding: 20px;
+        z-index: 100;
+        margin-left: 670px;
+        margin-top: 40px;
+    }
+    .shop1 li a{
+        font-family: 'DM sans';
+        font-size: 15px;
+        color:rgb(203,154,114);
+        text-decoration: none;
+    }
+    .shop1 li{
+        width: 150px;
+    }
+    .product1{
+        display: none;
+        list-style: none;
+        width: 200px;
+        background-color: black;
+        position: absolute;
+        padding: 20px;
+        z-index: 100;
+        margin-left: 880px;
+        margin-top: 150px;
+    }
+    .product1 li a{
+        font-family: 'DM sans';
+        font-size: 15px;
+        color:rgb(203,154,114);
+        text-decoration: none;
+    }
+    .product1 li{
+        width: 150px;
+    }
+
+
+
+/* responsive mobile */
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 767px){
+.bars{
+    display:inline-block;
+    color: white;
+}
+.home,.page,.blog,.shop,.contact{
+    display: none;
+}
+.hi{
+    display: none;
+}
+.fl{
+    display: flex;
+    justify-content: space-between;
+}
+.home1,.page2,.blog1,.shop1,.contact1,.single1,.product1{
+    display: none;
+}
+}

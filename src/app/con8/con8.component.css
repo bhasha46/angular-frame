@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Alga';
+    src: url('/src/assets/fonts/Alga-Regular.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    background: url('/assets/images/background.png');
+    background-size: cover;
+    overflow: hidden;
+}
+.reserve{
+    width: 40%;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align:left;
+    background-color: black;
+    padding-top: 50px;
+}
+.slogan{
+    width: 40%;
+}
+.reserve h1{
+    font-family: 'Alga';
+    font-size: 44px;
+    font-weight: 500;
+    color: rgb(254, 254, 254);
+}
+.reserve .align{
+    padding-top: 50px;
+    color:  rgb(241, 219, 197);
+    width: 80%;
+    border: none;
+    background-color: transparent;
+}
+.check{
+    padding-top: 50px;
+    color:  rgb(241, 219, 197);
+}
+.form {
+    align-items: center;
+    align-content: center;
+}
+.reserve .p{
+    border-bottom: 2px solid rgb(241, 219, 197);
+}
+.reserve button{
+    color: rgb(254, 254, 254);
+    font-family: 'DM sans';
+    height: 50px;
+    width: 200px;
+    font-size: 14px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(197, 143, 99);
+}
+.reserve button:hover{
+    background-color: rgb(203,131,71);
+}
+.rose{
+    height: 400px;
+    margin-left: 430px;
+}
+.title{
+    font-family: "Alga";
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(254, 254, 254);
+}
+.head{
+    font-family: 'Alga';
+    font-size: 54px;
+    font-weight: 400;
+    color: rgb(254, 254, 254);
+}
+.slogan .details{
+    margin-top: -300px;
+    margin-left: 80px;
+}
+.address{
+    font-size: 16px;
+    font-family: 'DM sans';
+    font-weight: 400;
+    color: rgb(241, 219, 197);
+}
+.phone{
+    font-weight: 500;
+    font-family: 'DM sans';
+    font-size: 17px;
+    color: rgb(254, 254, 254);
+}
+.soc{
+    font-size: 19px;
+    color: rgb(254, 254, 254);
+    margin-left: 80px;
+}
+.soc span{
+    height: 70px;
+    width: 70px;
+    line-height: 43px;
+    padding: 7px;
+    text-align: center;
+    border: 1px solid dimgray;
+    border-radius: 50%;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    .content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .reserve,.slogan{
+        width: 100%;
+    }
+    .reserve{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .reserve .align{
+        width: 80%;
+    }
+    .reserve{
+        padding-left: 40px;
+    }
+    .slogan img{
+        display: none;
+    }
+    .slogan .details{
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+    .reserve h1{
+        font-size: 34px;
+    }
+    .head{
+        font-size: 34px;
+    }
+}

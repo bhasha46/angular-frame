@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Alga';
+    src: url('/src/assets/fonts/Alga-Regular.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+.soc{
+    font-size: 19px;
+    color: rgb(254, 254, 254);
+    margin-left: 80px;
+}
+.soc .fb,.tweet,.brow,.ins{
+    height: 70px;
+    width: 70px;
+    line-height: 43px;
+    padding: 7px;
+    text-align: center;
+    border: 1px solid dimgray;
+    border-radius: 50%;
+}
+.data{
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.txt,.number{
+    font-family: 'Alga';
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(254, 254, 254);
+}
+.color{
+    font-family: 'DM sans';
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(241, 219, 197);
+    line-height: 2;
+}
+.color li{
+    list-style: none;
+}
+.color li a{
+    text-decoration: none;
+    color: rgb(241, 219, 197);
+}
+.bor{
+    background-color: rgb(241, 219, 197);
+    height: 1px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.copy{
+    padding-left: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'DM sans';
+    color:rgb(241, 219, 197);
+}
+
+/* mobile res */
+
+
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    .data{
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .soc{
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+    .bor{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .copy{
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-size: 14px;
+    }
+}

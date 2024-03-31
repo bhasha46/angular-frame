@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Alga';
+    src: url('/src/assets/fonts/Alga-Regular.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+.bg{
+    background-color: transparent;
+    overflow: hidden;
+    padding-bottom: 70px;
+}
+.content1{
+    padding-top: 60px;
+    text-align: center;
+}
+.c1d1{
+    font-family: 'Alga';
+    font-size: 15px;
+    color:rgb(254, 254, 254);
+}
+.c1d2{
+    color: rgb(254, 254, 254);
+    font-family: 'Alga';
+    font-size: 54px;
+    line-height: 95%;
+}
+.color{
+    color: rgb(203, 154, 114);
+}
+.color2{
+    font-family: 'DM sans';
+    color: rgb(241, 219, 197);
+}
+.c1d3{
+    font-size: 19px;
+    color: rgb(254, 254, 254);
+}
+.color2{
+    font-size: 17px;
+}
+.bottle{
+    background: url('/assets/images/bottle.png');
+    height: 350px;
+    width: 500px;
+    background-size: cover;
+    margin-left: 920px;
+    margin-top: -100px;
+}
+.winegirl{
+    background: url('/assets/images/winegirl.jpg');
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    margin-left: 70px;
+    margin-top: -150px;
+}
+.slogtit{
+    font-family: 'Alga';
+    font-size: 15px;
+    color: rgb(254, 254, 254);
+}
+.slogdet{
+    font-family: 'Alga';
+    font-size: 54px;
+    color: rgb(254, 254, 254);
+    line-height: 95%;
+}
+.slog{
+    margin-left: 770px;
+    margin-top: -450px;
+}
+.btn{
+    margin-top: 60px;
+    margin-left: 870px;
+    text-align: left;
+}
+.btn p{
+    font-family: 'DM sans';
+    font-size: 17px;
+    color: rgb(241, 219, 197);
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+.btn button{
+    border: none;
+    font-family: 'DM sans';
+    background-color: rgb(203,154,114);
+    height: 50px;
+    width: 150px;
+    font-size: 12px;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+}
+.btn button:hover{
+    background-color: rgb(206, 108, 28);
+}
+
+/* mobile responsive */
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    .c1d1{
+        font-family: 'Alga';
+        font-size: 13px;
+        color:rgb(254, 254, 254);
+    }
+    .c1d2{
+        color: rgb(254, 254, 254);
+        font-family: 'Alga';
+        font-size: 24px;
+        line-height: 95%;
+    }
+    .c1d3{
+        font-size: 19px;
+        color: rgb(254, 254, 254);
+    }
+    .winegirl{
+        background: url('/assets/images/winegirl.jpg');
+        height: 400px;
+        width: 350px;
+        background-size: cover;
+        margin-left: 20px;
+        margin-top: -150px;
+    }
+    .slogdet{
+        font-family: 'Alga';
+        font-size: 34px;
+        color: rgb(254, 254, 254);
+        line-height: 95%;
+    }
+    .slog{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .btn{
+        margin-top: 30px;
+        margin-left: 10px;
+        text-align: left;
+    }
+}

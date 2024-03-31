@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Alga';
+    src: url('/src/assets/fonts/Alga-Regular.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+.content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url('/assets/images/background.png');
+    background-size: cover;
+    white-space: nowrap;
+    overflow: hidden;
+}
+p{
+    color:rgb(254, 254, 254);
+    font-size: 154px;
+    font-family: 'Alga';
+    font-weight: 400;
+}
+.slide {
+    display: inline-block;
+    animation: scroll 20s infinite linear;
+}
+@keyframes scroll{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    p{
+        font-size: 90px;
+    }
+}

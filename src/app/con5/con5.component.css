@@ -1,0 +1,66 @@
+.img-section{
+    display: flex;
+    justify-content: center;
+}
+.club{
+    height: 600px;
+    width:50%;
+    overflow: hidden;
+}
+.clubimg{
+    height: 600px;
+    width: auto;
+}
+.club:hover .clubimg{
+    scale: 1.1;
+    transition: all 2s ease;
+}
+.many-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 50%;
+}
+.grape,.icecream,.roll,.wineglass{
+    overflow: hidden;
+    height: 300px;
+}
+.grapeimg,.iceimg,.rollimg,.winegimg{
+    height: 300px;
+    width: auto;
+}
+.grape:hover .grapeimg{
+    scale: 1.1;
+    transition: all 2s ease;
+}
+.icecream:hover .iceimg{
+    scale: 1.1;
+    transition: all 2s ease;
+}
+.roll:hover .rollimg{
+    scale: 1.1;
+    transition: all 2s ease;
+}
+.wineglass:hover .winegimg{
+    scale: 1.1;
+    transition: all 2s ease;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    .img-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .many-image{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+    }
+    .club{
+        height: 300px;
+        width:100%;
+        overflow: hidden;
+    }
+    .clubimg{
+        height: 300px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Alga';
+    src: url('/src/assets/fonts/Alga-Regular.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+.content-head{
+    text-align: center;
+}
+.hea1{
+    font-family: 'Alga';
+    font-size: 15px;
+    color: rgb(254, 254, 254);
+    font-weight: 500;
+}
+.hea2{
+    font-family: 'Alga';
+    font-size: 54px;
+    font-weight: 500;
+    color: rgb(254, 254, 254);
+}
+.content{
+ background: url('/assets/images/background.png');
+ background-size: cover;
+ padding-top: 70px;
+ padding-bottom: 70px;
+}
+.img1{
+    width: auto;
+    height: 300px;
+    overflow: hidden;
+}
+.img1 img{
+    width: auto;
+    height: 300px;
+}
+.img1:hover img{
+    scale: 1.1;
+    transition: all 2s ease;
+}
+.name{
+    font-family: 'Alga';
+    font-size: 13px;
+    color: rgb(254, 254, 254);
+    font-weight: 400;
+}
+.date{
+    font-family: 'Alga';
+    font-size: 15px;
+    color: rgb(254, 254, 254);
+    font-weight: 400;
+}
+.comments{
+    font-family: 'Alga';
+    font-size: 15px;
+    color: rgb(254, 254, 254);
+    font-weight: 400;
+}
+.color:hover{
+    color: rgb(203, 131, 71);
+}
+.details{
+    font-family: 'Alga';
+    font-size: 28px;
+    color: rgb(254, 254, 254);
+    font-weight: 400;
+}
+.scroll1{
+    min-width: 29%;
+    margin-left: 60px;
+    min-height: 400px;
+}
+.scroll1 p{
+    padding-top: 30px;
+}
+.scroll{
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: auto;
+}
+.scroll::-webkit-scrollbar{
+    width: 0;
+}
+
+
+/* mobile res */
+
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    .hea1{
+        font-family: 'Alga';
+        font-size: 12px;
+        color: rgb(254, 254, 254);
+        font-weight: 500;
+    }
+    .hea2{
+        font-family: 'Alga';
+        font-size: 23px;
+        font-weight: 500;
+        color: rgb(254, 254, 254);
+    }
+    .content{
+        padding-top: 40px;
+    }
+    .scroll1{
+        min-width: 100%;
+        margin-left: 20px;
+        min-height: 400px;
+    }
+    .scroll{
+        padding-bottom: 20px;
+    }
+}
